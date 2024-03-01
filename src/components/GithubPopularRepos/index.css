@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.background-container-git-rpos {
+  text-align: center;
+  padding: 40px;
+}
+.heading-popular {
+  font-family: 'Lobster';
+  font-size: '52px';
+  color: #0f172a;
+}
+.list-container {
+  padding: 0px;
+  font-family: 'Roboto';
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.fialureview-image {
+  height: 800px;
+}
+@media screen and (max-width: 767px) {
+  .background-container-git-rpos {
+    padding: 15px;
+  }
+  .heading-popular {
+    font-size: 48px;
+  }
+  .fialureview-image{
+    height: 200px;
+  }
+}
